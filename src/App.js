@@ -14,7 +14,7 @@ class App extends React.Component {
     showStats: false,
     showStatsF: false,
     company: '',
-    count: 0 
+    count: 0,
   }
 
   // получаем сети
@@ -98,7 +98,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="main">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-md-4 col-sm-12 cards">
                 <Info getNets={this.getNets} />
